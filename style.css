@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    border-radius: 15px;
+    top: calc(50% - 100px);
+    left: calc(50% - 150px);
+    border: 2px black solid;
+}
+.des{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+}
+.respone{
+    display: flex;
+    justify-content: center;
+}
+.yes, .no{
+    background-color: white;
+    width: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 20px;
+    text-align: center;
+}
+.yes:hover, .no:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+
